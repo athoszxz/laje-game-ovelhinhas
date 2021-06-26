@@ -1,0 +1,1089 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63851
+Successfully changed project path to: C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001890 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 2.067100 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.057200 ms MarkObjects: 1.573600 ms  DeleteObjects: 0.123900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/bolinha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bolinha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1ae850bc063f26669c2403ed2384b') in 0.026451 seconds
+  Import took 0.031969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.772509 seconds.
+  path: Assets/ovelha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ovelha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8790bda46d7d6a42ec3fd1efe7bc9256') in 0.006039 seconds
+  Import took 0.010593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 2.020200 ms (FindLiveObjects: 0.335200 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.534600 ms  DeleteObjects: 0.098900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 2.225700 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.841100 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.324518 seconds.
+  path: Assets/ovelha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ovelha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93e63376e9519658060216155bf1b43') in 0.004374 seconds
+  Import took 0.009197 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.3 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 1.813900 ms (FindLiveObjects: 0.219600 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.441200 ms  DeleteObjects: 0.097300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 532.651162 seconds.
+  path: Assets/ovelha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ovelha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893b98a7b9be2eb94b8771e73df122fb') in 0.004653 seconds
+  Import took 0.008900 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 1.845400 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.481700 ms  DeleteObjects: 0.110400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 1.894700 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.494100 ms  DeleteObjects: 0.100100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 2.204100 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.806200 ms  DeleteObjects: 0.112900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004181 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 1.982600 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.588300 ms  DeleteObjects: 0.108100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 1.928100 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.550800 ms  DeleteObjects: 0.117400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 2.521400 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.996200 ms  DeleteObjects: 0.126500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2666.
+Total: 2.187200 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.792100 ms  DeleteObjects: 0.116700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.961700 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.349400 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2674.
+Total: 2.000900 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.608300 ms  DeleteObjects: 0.105300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 2.209100 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.775400 ms  DeleteObjects: 0.108500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 1.869200 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.436900 ms  DeleteObjects: 0.136500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2686.
+Total: 2.247000 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.723600 ms  DeleteObjects: 0.101900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 2.782300 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.292500 ms  DeleteObjects: 0.155500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2510.280786 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4856052512617ee48189cf1d7999900') in 0.011839 seconds
+  Import took 0.017777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.895015 seconds.
+  path: Assets/ovelha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ovelha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177867aaecfd19f36101968db906aa2') in 0.002323 seconds
+  Import took 0.006530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019696 seconds.
+  path: Assets/ovelha.cs
+  artifactKey: Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ovelha.cs using Guid(ad6afe7bb6905974795de37276112cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177867aaecfd19f36101968db906aa2') in 0.002401 seconds
+  Import took 0.006103 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.6 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.898000 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.126600 ms MarkObjects: 3.014300 ms  DeleteObjects: 0.215300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.007754 seconds.
+  path: Assets/Images/Nature/Bush1.png
+  artifactKey: Guid(f8090491339d1e042b855a07076db54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Bush1.png using Guid(f8090491339d1e042b855a07076db54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac8e6aa357de617d17956e9a71ad745') in 0.104866 seconds
+  Import took 0.110016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Images/Nature/Tree2.png
+  artifactKey: Guid(801ba98b880824648a810230f036bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Tree2.png using Guid(801ba98b880824648a810230f036bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf578809063d6b7f0ad1f4522e7a4588') in 0.027230 seconds
+  Import took 0.031626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/Nature/Stone3.png
+  artifactKey: Guid(e5f35d56cbd602548ad4ae6278f3e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Stone3.png using Guid(e5f35d56cbd602548ad4ae6278f3e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7bcc472f90c1e731bfe9ffd2f206f3') in 0.033027 seconds
+  Import took 0.036083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Images/Nature/Stone1.png
+  artifactKey: Guid(9de074f04912e1044bfaed4da2845879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Stone1.png using Guid(9de074f04912e1044bfaed4da2845879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b80d89d4a6e81194b2c8832f73cc4fb') in 0.027785 seconds
+  Import took 0.031577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Images/Nature/Stone2.png
+  artifactKey: Guid(b3584d51c5b6d81498a448bbffcdde9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Stone2.png using Guid(b3584d51c5b6d81498a448bbffcdde9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a9ae77b338ac777e9cb00cc07d9c3') in 0.031627 seconds
+  Import took 0.036307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Nature/Tree3.png
+  artifactKey: Guid(3d11adf85eb83ca4285f551ef013cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Tree3.png using Guid(3d11adf85eb83ca4285f551ef013cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ec61b8f1b0c57ef70dcf141fc7a8ae') in 0.028306 seconds
+  Import took 0.033241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/Nature/Bush2.png
+  artifactKey: Guid(a239853948a87be498789d8b9e3c4881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Bush2.png using Guid(a239853948a87be498789d8b9e3c4881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64cb0182f33e6d761f226cdf577e70') in 0.026317 seconds
+  Import took 0.030339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Images/Nature/Flower1.png
+  artifactKey: Guid(8d7d45d37f962d14080ef20ecc5eb114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Flower1.png using Guid(8d7d45d37f962d14080ef20ecc5eb114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f372002e8828b02290a5a375722b9a12') in 0.028351 seconds
+  Import took 0.033258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Images/Nature/Flower2.png
+  artifactKey: Guid(79429069e7a00204787f0f7e4518f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Flower2.png using Guid(79429069e7a00204787f0f7e4518f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9422e76fd3c424fa614e5a9b0be73401') in 0.025945 seconds
+  Import took 0.029648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Images/Nature/Tree1.png
+  artifactKey: Guid(24d56f329fe1a3b4d98c298620007e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Nature/Tree1.png using Guid(24d56f329fe1a3b4d98c298620007e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ee7fb04299a787cb5ef6e717ade0ca') in 0.032123 seconds
+  Import took 0.036016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.800570 seconds.
+  path: Assets/Images/GameElements/Bomb.png
+  artifactKey: Guid(92310cd8fa26e9f42880da58d0c61974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Bomb.png using Guid(92310cd8fa26e9f42880da58d0c61974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5f4ffe7dd878d9dfd7245c0f92749f') in 0.020963 seconds
+  Import took 0.024137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Images/GameElements/KeyKing.png
+  artifactKey: Guid(026c154dcf5a92743bf6251600aef3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/KeyKing.png using Guid(026c154dcf5a92743bf6251600aef3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70891b7b2005e7198b805de2b6f6e17') in 0.019829 seconds
+  Import took 0.023776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Images/GameElements/Coin.png
+  artifactKey: Guid(b9df09de8e6723d4596d9b699dd3dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Coin.png using Guid(b9df09de8e6723d4596d9b699dd3dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e10375c7dd9ae73f5c5c99635b77f3') in 0.025922 seconds
+  Import took 0.028998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Images/GameElements/TreasureChestSkull.png
+  artifactKey: Guid(c754d068850a95944b9cf464e5e8d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/TreasureChestSkull.png using Guid(c754d068850a95944b9cf464e5e8d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a73c161c430ae45fc3d8b5d9c9ca6e') in 0.026929 seconds
+  Import took 0.030748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Images/GameElements/Star.png
+  artifactKey: Guid(c90cad1c9aec2624f82869e907e8ffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Star.png using Guid(c90cad1c9aec2624f82869e907e8ffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f361bbb7656a0b408a0a9142665309df') in 0.027193 seconds
+  Import took 0.030384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Images/GameElements/Lance.png
+  artifactKey: Guid(9cf03e736bae1594a9b8479f049fcc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Lance.png using Guid(9cf03e736bae1594a9b8479f049fcc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa59cd7b969a27d347f8f3a0dca68a5') in 0.024193 seconds
+  Import took 0.028130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/GameElements/KeyGold.png
+  artifactKey: Guid(e15c53739a13446498e1b50b5327f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/KeyGold.png using Guid(e15c53739a13446498e1b50b5327f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bf506d64991b952fd56c02e1ae01c3') in 0.022572 seconds
+  Import took 0.027478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Images/GameElements/TreasureChestSmall.png
+  artifactKey: Guid(aba376f1ea104294887a96059e2da2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/TreasureChestSmall.png using Guid(aba376f1ea104294887a96059e2da2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecffa3e96e45d033db6090c9b49eba1') in 0.031731 seconds
+  Import took 0.035773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/GameElements/PotionLiquid.png
+  artifactKey: Guid(a0e76a08507ade04a9daa01223e5240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/PotionLiquid.png using Guid(a0e76a08507ade04a9daa01223e5240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1016a816c5dcc432fdffc47d4ec89b') in 0.025478 seconds
+  Import took 0.028472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Images/GameElements/TreasureChestGold.png
+  artifactKey: Guid(bdd441eb13523834990c0be85bb1018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/TreasureChestGold.png using Guid(bdd441eb13523834990c0be85bb1018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0831640e5e4981a6c2eefd83a845b97') in 0.028024 seconds
+  Import took 0.032725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Images/GameElements/Football.png
+  artifactKey: Guid(110470e204f60a1478d140ea02f309e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Football.png using Guid(110470e204f60a1478d140ea02f309e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cd9334612276f493e596e9b6874329') in 0.016542 seconds
+  Import took 0.021223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Images/GameElements/TreasureChestKing.png
+  artifactKey: Guid(e070b1828b6b3db49b8a6467ed0e6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/TreasureChestKing.png using Guid(e070b1828b6b3db49b8a6467ed0e6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8301b6eca574319fc26d48c5c2ee874') in 0.025289 seconds
+  Import took 0.029021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Images/GameElements/KeySkull.png
+  artifactKey: Guid(66e61f53385012e4da76537c3eab6ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/KeySkull.png using Guid(66e61f53385012e4da76537c3eab6ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31992e04d796b0ce5badbcc1665b64a') in 0.025414 seconds
+  Import took 0.028428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Images/GameElements/KeySmall.png
+  artifactKey: Guid(989dfd6b97a71054a8afc17a55e82921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/KeySmall.png using Guid(989dfd6b97a71054a8afc17a55e82921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231a0cc0bff110e47a566cf6428dda34') in 0.021265 seconds
+  Import took 0.025761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Images/GameElements/crate.png
+  artifactKey: Guid(cf24273292aa5724289fff17d4250802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/crate.png using Guid(cf24273292aa5724289fff17d4250802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649c4d70ab795cf35b094832375bc0d') in 0.024532 seconds
+  Import took 0.028336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/GameElements/FlagBlue.png
+  artifactKey: Guid(11b704a70d28df84bb4968c5738f3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/FlagBlue.png using Guid(11b704a70d28df84bb4968c5738f3507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2cc08fc67725e2184d22e028f3174a') in 0.016847 seconds
+  Import took 0.021057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Images/GameElements/Shield.png
+  artifactKey: Guid(aed45744de732194fbd6a7410bbb5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Shield.png using Guid(aed45744de732194fbd6a7410bbb5620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0220915146073be22923ac9c7ec58be2') in 0.023653 seconds
+  Import took 0.027692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Images/GameElements/Sword.png
+  artifactKey: Guid(2ee127fb51a2d4d4d927787c563c3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Sword.png using Guid(2ee127fb51a2d4d4d927787c563c3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d68a14004a98518ffcfe7eae962e7e') in 0.020446 seconds
+  Import took 0.024576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Images/GameElements/PotionGlass.png
+  artifactKey: Guid(15c79ed8c049a2e4a8176c55bcae0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/PotionGlass.png using Guid(15c79ed8c049a2e4a8176c55bcae0c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede995ebb81d5d18af7f071b297e4c5e') in 0.020777 seconds
+  Import took 0.023865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Images/GameElements/MagicWand.png
+  artifactKey: Guid(08552b3f133f25e48aca94e5ac12206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/MagicWand.png using Guid(08552b3f133f25e48aca94e5ac12206b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd045171b049ce7b6734155c74f171fee') in 0.020342 seconds
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Images/GameElements/Lantern.png
+  artifactKey: Guid(8f16f2fa6e8c89e488f59615c182fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/Lantern.png using Guid(8f16f2fa6e8c89e488f59615c182fc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5b1c96f422851a8ea6cc25c847ec2c') in 0.021385 seconds
+  Import took 0.025565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Images/GameElements/FlagRed.png
+  artifactKey: Guid(590ea6868994b474e9db48685f8b7dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GameElements/FlagRed.png using Guid(590ea6868994b474e9db48685f8b7dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3648349a9a149b557bb038ec87f58506') in 0.017804 seconds
+  Import took 0.021494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195650 seconds.
+  path: Assets/Images/GeometricShapes/Circle.png
+  artifactKey: Guid(810ce5a8a90e54eae837c6c5ad4bb98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/Circle.png using Guid(810ce5a8a90e54eae837c6c5ad4bb98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7f584c957cf04eafff012b0f4adcf8') in 0.020133 seconds
+  Import took 0.023856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Images/GeometricShapes/Hexagon.png
+  artifactKey: Guid(96d5a8d6b8803478a85ef0f85b581c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/Hexagon.png using Guid(96d5a8d6b8803478a85ef0f85b581c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418e0bb218ea7259aa293c1f8056cf0f') in 0.018986 seconds
+  Import took 0.025615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/GeometricShapes/RoundedSquare.png
+  artifactKey: Guid(03e8c13697b6d472f99eba994a499a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/RoundedSquare.png using Guid(03e8c13697b6d472f99eba994a499a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec2010978277303fd6a9165c9ca15e') in 0.014602 seconds
+  Import took 0.018167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Images/GeometricShapes/Trapezoid.png
+  artifactKey: Guid(50a6adcb0021f40e4937ddce93e90ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/Trapezoid.png using Guid(50a6adcb0021f40e4937ddce93e90ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b24aed9a6fdb0da7b528204f980701') in 0.017307 seconds
+  Import took 0.020093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/GeometricShapes/RoundedSquare.png
+  artifactKey: Guid(03e8c13697b6d472f99eba994a499a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/RoundedSquare.png using Guid(03e8c13697b6d472f99eba994a499a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ec2010978277303fd6a9165c9ca15e') in 0.006951 seconds
+  Import took 0.010166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Images/GeometricShapes/Square.png
+  artifactKey: Guid(a59159c4864834b6f924d22111b82134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GeometricShapes/Square.png using Guid(a59159c4864834b6f924d22111b82134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d8265efa00839b6e31f5392378b704') in 0.013482 seconds
+  Import took 0.016397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747721 seconds.
+  path: Assets/Images/FloorTiles/BlockStoneFloor.png
+  artifactKey: Guid(06ba543b82712b147b6f04d28e8dbdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/BlockStoneFloor.png using Guid(06ba543b82712b147b6f04d28e8dbdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab6f57e1ca4b273c09ff892a6ea772') in 0.018305 seconds
+  Import took 0.022090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Images/FloorTiles/WoodenFloor1.png
+  artifactKey: Guid(6d18d68e26389d543b9b2fc3759dfd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/WoodenFloor1.png using Guid(6d18d68e26389d543b9b2fc3759dfd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7f9a4c775ba3f0acd57285d8362b7f') in 0.019211 seconds
+  Import took 0.023688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Images/FloorTiles/BricksFloor.png
+  artifactKey: Guid(6a36033b03a2c904ea746a7b99e58fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/BricksFloor.png using Guid(6a36033b03a2c904ea746a7b99e58fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cffbfe19f08ab7054c83b44f3ac1062') in 0.021167 seconds
+  Import took 0.025112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Images/FloorTiles/CobblestoneFloor2.png
+  artifactKey: Guid(e4b61a9aa81e5dc448abe3eda1383eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/CobblestoneFloor2.png using Guid(e4b61a9aa81e5dc448abe3eda1383eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2daafaa4d96d2addd5502ab3d24ce0') in 0.017909 seconds
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Images/FloorTiles/PlanksFloor1.png
+  artifactKey: Guid(48e6bf017c4c19e4da07ebda90e25a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/PlanksFloor1.png using Guid(48e6bf017c4c19e4da07ebda90e25a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5075bc1d39f7bce36c24b0be77741e9') in 0.020393 seconds
+  Import took 0.024355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Images/FloorTiles/Cobblestonefloor3.png
+  artifactKey: Guid(f20b6bb3697392245bc8710f2651a19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/Cobblestonefloor3.png using Guid(f20b6bb3697392245bc8710f2651a19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95750f28e2b01fb8cc312fd4ea0a13af') in 0.021186 seconds
+  Import took 0.025723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Images/FloorTiles/StoneFloor2.png
+  artifactKey: Guid(176516393d96adf44b5f060015c781a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/StoneFloor2.png using Guid(176516393d96adf44b5f060015c781a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039324ded06d07a87e7e2ea2d5ad0373') in 0.022693 seconds
+  Import took 0.026678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Images/FloorTiles/GrassFloor2.png
+  artifactKey: Guid(a27310a9ac59af94498581e8bfdf4f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/GrassFloor2.png using Guid(a27310a9ac59af94498581e8bfdf4f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee2d0300ee9189c6da8609e8999faf8') in 0.017614 seconds
+  Import took 0.020766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Images/FloorTiles/WoodenFloor2.png
+  artifactKey: Guid(f8524e4bbd7b1774f9d8979c29c88d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/WoodenFloor2.png using Guid(f8524e4bbd7b1774f9d8979c29c88d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6124aa96162d80f312698c5547c08bfe') in 0.019003 seconds
+  Import took 0.022382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Images/FloorTiles/WoodenFloor3.png
+  artifactKey: Guid(b9e9110315e57864ea9836125072f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/WoodenFloor3.png using Guid(b9e9110315e57864ea9836125072f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03dfd0bb1337890547811b393a2fb7b') in 0.017172 seconds
+  Import took 0.020798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Images/FloorTiles/BlockWoodFloor.png
+  artifactKey: Guid(f954558e42e09fe4aa16538c0267164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/BlockWoodFloor.png using Guid(f954558e42e09fe4aa16538c0267164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5bba3e67a08e1f7b5e4dd1a165a71b') in 0.018761 seconds
+  Import took 0.022637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Images/FloorTiles/GrassFloor3.png
+  artifactKey: Guid(3c1904957146632419a1f39d7430e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/GrassFloor3.png using Guid(3c1904957146632419a1f39d7430e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675d7c285cece36f54e12f6eae590494') in 0.014326 seconds
+  Import took 0.018368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Images/FloorTiles/GrassFloor1.png
+  artifactKey: Guid(efce500737e15b24da6c945b394cf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/GrassFloor1.png using Guid(efce500737e15b24da6c945b394cf598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752a180d6470061b2aa90845c5e6c25e') in 0.013402 seconds
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Images/FloorTiles/CobblestoneFloor1.png
+  artifactKey: Guid(066a8f667a0995644a07d56db1dbb1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/CobblestoneFloor1.png using Guid(066a8f667a0995644a07d56db1dbb1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e101af06799ccc363cec8af510994388') in 0.017793 seconds
+  Import took 0.020741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/FloorTiles/StoneFloor3.png
+  artifactKey: Guid(b385b7fbe43e15c428ab2877978fabea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/StoneFloor3.png using Guid(b385b7fbe43e15c428ab2877978fabea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1198f7aaa6ad436bf8c816f67e7971') in 0.018792 seconds
+  Import took 0.022301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Images/FloorTiles/StoneFloor1.png
+  artifactKey: Guid(e50f1799fa70cf948b122fe631e3ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FloorTiles/StoneFloor1.png using Guid(e50f1799fa70cf948b122fe631e3ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1944af5e977f475dd01230400727fad0') in 0.018001 seconds
+  Import took 0.021109 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2766.
+Total: 1.858800 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.443200 ms  DeleteObjects: 0.094900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2770.
+Total: 3.395500 ms (FindLiveObjects: 0.559200 ms CreateObjectMapping: 0.132600 ms MarkObjects: 2.498900 ms  DeleteObjects: 0.203700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 2.074800 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.700000 ms  DeleteObjects: 0.093200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2778.
+Total: 2.351400 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.813500 ms  DeleteObjects: 0.115500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2782.
+Total: 2.186100 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.742600 ms  DeleteObjects: 0.118100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2786.
+Total: 2.702500 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.224700 ms  DeleteObjects: 0.122300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 100.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2790.
+Total: 2.564100 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.124900 ms MarkObjects: 1.883100 ms  DeleteObjects: 0.132200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
