@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Movement\Push.cs" />
     <Compile Include="Assets\Scripts\Conditions\Actions\LoadLevelAction.cs" />
     <Compile Include="Assets\Scripts\Movement\Wander.cs" />
+    <Compile Include="Assets\ovelha.cs" />
     <Compile Include="Assets\Scripts\Movement\Move.cs" />
     <Compile Include="Assets\Scripts\Movement\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Conditions\ConditionArea.cs" />
@@ -97,7 +98,6 @@
     <Compile Include="Assets\Scripts\Movement\Jump.cs" />
     <Compile Include="Assets\Scripts\Movement\Rotate.cs" />
     <Compile Include="Assets\Scripts\Attributes\HealthSystemAttribute.cs" />
-    <Compile Include="Assets\ovelha.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -792,6 +792,12 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
