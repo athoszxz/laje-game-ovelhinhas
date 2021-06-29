@@ -8,7 +8,7 @@ Game em produção pela Equipe Cadeira de Plástico no projeto de desenvolviment
 
 Athos Balmant (DEV)
 
-Fernanda Cristina (DEV)
+Fernanda Prazeres (DEV)
 
 Julie França (Arte)
 
