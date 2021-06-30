@@ -21,10 +21,17 @@ public class Move : Physics2DObject
 	private Vector2 movement, cachedDirection;
 	private float moveHorizontal;
 	private float moveVertical;
+	private Animator myAnimator;
+	private Rigidbody2D myRb;
 
+    private void Awake()
+    {
+		myAnimator = GetComponent<Animator>();
+		myRb = GetComponent<Rigidbody2D>();
+    }
+    // Update gets called every frame
 
-	// Update gets called every frame
-	void Update ()
+    void Update ()
 	{	
 		// Moving with the arrow keys
 		if(typeOfControl == Enums.KeyGroups.ArrowKeys)
@@ -56,9 +63,14 @@ public class Move : Physics2DObject
 		//the axis to look can be decided with the "axis" variable
 		if(orientToDirection)
 		{
-			if(movement.sqrMagnitude >= 0.01f)
+			if(movement.sqrMagnitude >= 0.1f)
 			{
 				cachedDirection = movement;
+				myAnimator.SetBool("andando", true);
+			}
+            else
+            {
+				myAnimator.SetBool("andando", false);
 			}
 			Utils.SetAxisTowards(lookAxis, transform, cachedDirection);
 		}
@@ -70,6 +82,6 @@ public class Move : Physics2DObject
 	void FixedUpdate ()
 	{
 		// Apply the force to the Rigidbody2d
-		rigidbody2D.AddForce(movement * speed * 10f);
+		myRb.AddForce(movement * speed * 10f);
 	}
 }

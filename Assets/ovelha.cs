@@ -10,6 +10,8 @@ public class ovelha : MonoBehaviour
     private bool andando = true;
     public Vector3 temper;
     public float offset;
+    private bool fugindo;
+    private Transform player;
 
     void andarAleatorio()
     {
@@ -31,6 +33,32 @@ public class ovelha : MonoBehaviour
         }
     }
 
+    void fugir()
+    {
+        var heading = player.position - transform.position;
+        var distance = heading.magnitude;
+        var direction = - heading / distance;
+        myTransform.position = Vector2.MoveTowards(myTransform.position, direction, velocidade * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            player = collision.transform;
+            fugindo = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            fugindo = false;
+            andarAleatorio();
+        }
+    }
+
     private void Awake()
     {
         myTransform = transform;
@@ -44,8 +72,13 @@ public class ovelha : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (andando)
+        if (fugindo)
         {
+            fugir();
+        }
+        else
+        {
+            //fugir();
             move();
         }
         
