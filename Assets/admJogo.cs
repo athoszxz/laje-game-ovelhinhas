@@ -15,10 +15,11 @@ public class admJogo : MonoBehaviour
     private int ovelhasCapturadas = 0;
     public TextMeshProUGUI textoOvelhas;
     private int ovelhasObjetivo;
+    public string nomeproximaFase;
     
     private void proximaFase()
     {
-        SceneManager.LoadScene("Vitoria1");
+        SceneManager.LoadScene(nomeproximaFase);
     }
 
     public static admJogo instance;
@@ -64,7 +65,7 @@ public class admJogo : MonoBehaviour
 
     public void configTextoOvelhas()
     {
-        textoOvelhas.text = "Perdidas: " + ovelhasPerdidas + "/" + ovelhasTotal + "\nCapturadas: " + ovelhasCapturadas + "/" + ovelhasTotal/2;
+        textoOvelhas.text = ovelhasCapturadas + "/" + ovelhasTotal / 2 + "\n\n\n" + ovelhasPerdidas + "/" + ovelhasTotal;
     } 
 
     public void startTempo()
@@ -92,7 +93,7 @@ public class admJogo : MonoBehaviour
             //float hours = (tempo / 3600);
             float minutes = Mathf.Floor(tempo / 60);
             float seconds = Mathf.RoundToInt(tempo % 60);
-            textoTempo.text = "Tempo: " + $"{minutes:00}:{seconds:00}";
+            textoTempo.text = $"{minutes:00}:{seconds:00}";
             
             if(tempo <= 0f)
             {
@@ -100,7 +101,7 @@ public class admJogo : MonoBehaviour
                 
                 contandoTempo = false;
 
-                textoTempo.text = "Tempo: " + $"{0:00}:{0:00}";            
+                textoTempo.text = $"{0:00}:{0:00}";            
                 perderJogo();
             }
 

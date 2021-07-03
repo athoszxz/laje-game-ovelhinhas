@@ -20,6 +20,8 @@ public class ovelha : MonoBehaviour
     public Transform alvoFuga;
     public float velocidadeFugir = 6f;
     public Collider2D colisorFisico;
+    public float tempoMudarDir = 3f;
+    private float tempoMudarAtual = 0f;
 
     public void morrer()
     {
@@ -50,6 +52,7 @@ public class ovelha : MonoBehaviour
 
     void andarAleatorio()
     {
+        tempoMudarAtual = tempoMudarDir;
         Vector2 temp;
         alvo = new Vector2(Random.Range(limitesAndar[0], limitesAndar[1]), (Random.Range(limitesAndar[2], limitesAndar[3])));
         //myTransform.LookAt(alvo, temper);
@@ -117,7 +120,7 @@ public class ovelha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        andarAleatorio();
     }
 
     // Update is called once per frame
@@ -132,6 +135,14 @@ public class ovelha : MonoBehaviour
             else
             {
                 move();
+                if(tempoMudarAtual > 0f)
+                {
+                    tempoMudarAtual -= Time.deltaTime;
+                }
+                else
+                {
+                    andarAleatorio();
+                }
             }
         }
 
