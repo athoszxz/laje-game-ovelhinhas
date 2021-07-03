@@ -1,0 +1,699 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60708
+Successfully changed project path to: C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001912 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.317 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2797.
+Total: 1.998500 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.067800 ms MarkObjects: 1.556000 ms  DeleteObjects: 0.097100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Images/Lia e Julie/Animacao/Player2.controller
+  artifactKey: Guid(38a57723908171a4192dc28f88a7169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/Player2.controller using Guid(38a57723908171a4192dc28f88a7169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6848eb24edd151ecad82be29e4a8c8dc') in 0.037878 seconds
+  Import took 0.043751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6075.558682 seconds.
+  path: Assets/Images/Lia e Julie/Animacao
+  artifactKey: Guid(7ba728fa6c63ad54f928b2312993c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao using Guid(7ba728fa6c63ad54f928b2312993c87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e39171d613c89b201d17309a47ebc0f') in 0.007640 seconds
+  Import took 0.014436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.766229 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_grande_parado.anim
+  artifactKey: Guid(72f6ec79663c2e54bbf7e737c19c5696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_grande_parado.anim using Guid(72f6ec79663c2e54bbf7e737c19c5696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f330060ff01c076ebd61c005e01f71') in 0.008779 seconds
+  Import took 0.013874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.675665 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_andando.anim
+  artifactKey: Guid(a8ae9186d2517554fbbcb9e6ea7510bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_andando.anim using Guid(a8ae9186d2517554fbbcb9e6ea7510bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c251654eb8de2e88becf8445765dd5b') in 0.006862 seconds
+  Import took 0.011978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001053 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_andando.anim
+  artifactKey: Guid(a8ae9186d2517554fbbcb9e6ea7510bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_andando.anim using Guid(a8ae9186d2517554fbbcb9e6ea7510bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c251654eb8de2e88becf8445765dd5b') in 0.002265 seconds
+  Import took 0.006952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.474014 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_grande_andando.anim
+  artifactKey: Guid(bb22d81d5b6e55f4a9adc45170cd0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_grande_andando.anim using Guid(bb22d81d5b6e55f4a9adc45170cd0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c947cfea3b60078e5952dfeee4bd075e') in 0.007634 seconds
+  Import took 0.013510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000894 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_grande_andando.anim
+  artifactKey: Guid(bb22d81d5b6e55f4a9adc45170cd0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_grande_andando.anim using Guid(bb22d81d5b6e55f4a9adc45170cd0332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c947cfea3b60078e5952dfeee4bd075e') in 0.002550 seconds
+  Import took 0.005734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.712625 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/Player1.controller
+  artifactKey: Guid(6c80c814ba2034442b5a60f1a1ee35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/Player1.controller using Guid(6c80c814ba2034442b5a60f1a1ee35a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb83c4f8e782120210158733d427cfd4') in 0.008363 seconds
+  Import took 0.012532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.989929 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_parado.anim
+  artifactKey: Guid(50889aa901058af4d8ada098b60368ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/cachorro_pequeno_parado.anim using Guid(50889aa901058af4d8ada098b60368ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4274aec222cac67ee8e5e224f674f3d3') in 0.007582 seconds
+  Import took 0.012324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.143674 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/New Animation.anim
+  artifactKey: Guid(7eac57c927b6f5145b016be4dc9ffcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/New Animation.anim using Guid(7eac57c927b6f5145b016be4dc9ffcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac31de42f13b756ef2b5d5716c91b345') in 0.007120 seconds
+  Import took 0.012874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/New Animation.anim
+  artifactKey: Guid(7eac57c927b6f5145b016be4dc9ffcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/New Animation.anim using Guid(7eac57c927b6f5145b016be4dc9ffcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac31de42f13b756ef2b5d5716c91b345') in 0.002313 seconds
+  Import took 0.005164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.184354 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/Raposa.controller
+  artifactKey: Guid(079284b98e2537847ba93a6be4f16964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/Raposa.controller using Guid(079284b98e2537847ba93a6be4f16964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46649a301b03fc1f08e02157961c709') in 0.007000 seconds
+  Import took 0.011982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 412.227341 seconds.
+  path: Assets/Images/Lia e Julie/New Animation.anim
+  artifactKey: Guid(12fd553a09bb7c04ba8f55812eb30d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/New Animation.anim using Guid(12fd553a09bb7c04ba8f55812eb30d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f6c62abac534649a612a529f4371ff') in 0.002599 seconds
+  Import took 0.007719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.998988 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/raposa_parada.anim
+  artifactKey: Guid(2b5b5542c39deee4981e9247f8c4d6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/raposa_parada.anim using Guid(2b5b5542c39deee4981e9247f8c4d6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6245a9ca791e3add1b7411dfd66ac5') in 0.006586 seconds
+  Import took 0.012011 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2801.
+Total: 2.347100 ms (FindLiveObjects: 0.420500 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.755200 ms  DeleteObjects: 0.092300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1115.909748 seconds.
+  path: Assets/Scenes/Fase2.unity
+  artifactKey: Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fase2.unity using Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b49d13f0956d5d197a055a2208abac') in 0.016417 seconds
+  Import took 0.020850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.978307 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/raposa_parada.anim
+  artifactKey: Guid(2b5b5542c39deee4981e9247f8c4d6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/raposa_parada.anim using Guid(2b5b5542c39deee4981e9247f8c4d6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5de1423941e0df0f70624dd55b2fdd7') in 0.002617 seconds
+  Import took 0.007401 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 2.059200 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.658300 ms  DeleteObjects: 0.093000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.606097 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/raposa_0.controller
+  artifactKey: Guid(98dac09ca26d66343ad4935d63b76aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/raposa_0.controller using Guid(98dac09ca26d66343ad4935d63b76aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7226eee8054c25efbef0d11ac5416646') in 0.015826 seconds
+  Import took 0.021320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.507178 seconds.
+  path: Assets/Images/Lia e Julie/Animacao/Raposa.controller
+  artifactKey: Guid(079284b98e2537847ba93a6be4f16964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Animacao/Raposa.controller using Guid(079284b98e2537847ba93a6be4f16964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ae53bd7852db8b8bd35302414b982a') in 0.002605 seconds
+  Import took 0.007005 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2809.
+Total: 1.856500 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.481900 ms  DeleteObjects: 0.082400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2813.
+Total: 2.058600 ms (FindLiveObjects: 0.304200 ms CreateObjectMapping: 0.068700 ms MarkObjects: 1.583900 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004228 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2817.
+Total: 1.888900 ms (FindLiveObjects: 0.249000 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.484600 ms  DeleteObjects: 0.094100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 2.319200 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.818500 ms  DeleteObjects: 0.104600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2825.
+Total: 1.891800 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.508400 ms  DeleteObjects: 0.083600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2829.
+Total: 1.946900 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.537800 ms  DeleteObjects: 0.087500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1397.485800 seconds.
+  path: Assets/Scenes/New Inventory Resources.asset
+  artifactKey: Guid(9adb6de86dd2fdc4e852613b2b553031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Inventory Resources.asset using Guid(9adb6de86dd2fdc4e852613b2b553031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30f794b8422870222d84e8ca2239f56') in 0.016939 seconds
+  Import took 0.020321 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 2.122200 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.709300 ms  DeleteObjects: 0.098100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.825424 seconds.
+  path: Assets/Scenes/Fase1.unity
+  artifactKey: Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fase1.unity using Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3fc2e4cab114d9a465c5982b379eb6') in 0.014946 seconds
+  Import took 0.018294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.643671 seconds.
+  path: Assets/Scenes/Vitoria2.unity
+  artifactKey: Guid(19bcf16879849a344889cdc9edd88b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Vitoria2.unity using Guid(19bcf16879849a344889cdc9edd88b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffdeaa238c8e3a37c0f0c1d322dcb2d') in 0.006837 seconds
+  Import took 0.010582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.770553 seconds.
+  path: Assets/Scenes/Fase2.unity
+  artifactKey: Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fase2.unity using Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9032bb5fb3f6e882c73083dedd9e25') in 0.002546 seconds
+  Import took 0.006406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 2.105000 ms (FindLiveObjects: 0.278800 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.671400 ms  DeleteObjects: 0.094600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.303291 seconds.
+  path: Assets/Scenes/Vitoria1.unity
+  artifactKey: Guid(7c3b814583ea1974fbcdce6743faa701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Vitoria1.unity using Guid(7c3b814583ea1974fbcdce6743faa701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832bdb27d0df37114638b7da71a70328') in 0.016452 seconds
+  Import took 0.019942 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.5 MB.
+System memory in use after: 102.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2841.
+Total: 3.186600 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.593800 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.874255 seconds.
+  path: Assets/Images/Lia e Julie/Menu principal fundo.png
+  artifactKey: Guid(f3c30d8a0ad6c1a4caf0c7226d9f8d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/Menu principal fundo.png using Guid(f3c30d8a0ad6c1a4caf0c7226d9f8d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def125ffdbee1dbc9d65ef466bbdae8b') in 0.120817 seconds
+  Import took 0.124394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.520666 seconds.
+  path: Assets/Scenes/Fase1.unity
+  artifactKey: Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fase1.unity using Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8064feea7ddcbb6c988e55d423121c18') in 0.002596 seconds
+  Import took 0.007190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.690290 seconds.
+  path: Assets/Images/Lia e Julie/ui ovelhas.png
+  artifactKey: Guid(502a3b453efcbd64b8ada3e74950f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Lia e Julie/ui ovelhas.png using Guid(502a3b453efcbd64b8ada3e74950f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46719dece8941c17138a8834d57424f4') in 0.020858 seconds
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2853.
+Total: 2.152300 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.685400 ms  DeleteObjects: 0.084000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005195 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2857.
+Total: 2.290800 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.808200 ms  DeleteObjects: 0.092900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.743 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2861.
+Total: 2.095900 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.554800 ms  DeleteObjects: 0.086600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2865.
+Total: 2.473900 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.185000 ms MarkObjects: 1.785800 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004511 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 2.123400 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.607200 ms  DeleteObjects: 0.094800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2873.
+Total: 1.949700 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.539800 ms  DeleteObjects: 0.087500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 2.538000 ms (FindLiveObjects: 0.454200 ms CreateObjectMapping: 0.156000 ms MarkObjects: 1.833600 ms  DeleteObjects: 0.092900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2881.
+Total: 2.815900 ms (FindLiveObjects: 0.457000 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.183000 ms  DeleteObjects: 0.094700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

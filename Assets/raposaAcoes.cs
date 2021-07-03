@@ -26,6 +26,10 @@ public class raposaAcoes : MonoBehaviour
 
     public void morrer()
     {
+        if (GetComponent<Animator>())
+        {
+            GetComponent<Animator>().enabled = false;
+        }
         GetComponent<SpriteRenderer>().sprite = imagemCaveira;
         Invoke("destruir", 4f);
         desaparecendo = true;

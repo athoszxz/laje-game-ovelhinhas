@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class telaVitoria1 : MonoBehaviour
 {
+    public string proximaFase;
 
     public void proximaCena()
     {
-        SceneManager.LoadScene("Fase2");
+        SceneManager.LoadScene(proximaFase);
     }
 }
