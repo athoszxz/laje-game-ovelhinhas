@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="beeeeeeeh1Shifter" ID="{CF7C7AC6-7B03-4A91-8DB9-431ED4105306}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="Pitch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D1F678A2-EA4F-47B8-AF0E-CC33E42EDC5B}" ShortID="60914299">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="graminha" ID="{A009A651-E58F-48D0-AA03-C3F2CC07741F}" WorkUnitID="{FE9669E5-CA53-4AC0-8BED-1D7E3E90ED2C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{DDBE4E55-F3E1-4E0F-9D1B-0E2E3E2CF511}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>360</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="aaaaaaaaaa" ID="{7DF9B1B8-327E-47B7-9479-94E3B48C86BF}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+				<Effect Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="Pitch" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D2237003-8B7B-4F71-BEB3-B3A949F6EED3}" ShortID="860316479">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="graminha" ID="{A009A651-E58F-48D0-AA03-C3F2CC07741F}" WorkUnitID="{FE9669E5-CA53-4AC0-8BED-1D7E3E90ED2C}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{20F3C755-5E31-4A3F-8ACC-C7176E3C2FB8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

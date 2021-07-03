@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FED694CE-8F23-4469-9235-4766AC00CA9C}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FED694CE-8F23-4469-9235-4766AC00CA9C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{A022FA44-3376-4C2B-AB79-9A2AF0946F88}">
+					<ObjectInclusionList>
+						<ObjectRef Name="graminhaEvent" ID="{2C41D429-2067-410C-A9CA-68AC524320AA}" WorkUnitID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="musicStart" ID="{714056F0-D82E-440E-B35C-2823702E1FA6}" WorkUnitID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sheepBeeh1" ID="{ED4657B1-51D7-44FE-A0B0-ED26183C4D04}" WorkUnitID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="uiClick" ID="{00752C7B-8BF6-4981-9A6B-E9FD1C009B8E}" WorkUnitID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="musicStop" ID="{2DA8097C-2966-4D9A-84FF-3E4478357D27}" WorkUnitID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

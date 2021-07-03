@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	740608359	sheepBeeh1			\Default Work Unit\sheepBeeh1	
+	1122283870	musicStart			\Default Work Unit\musicStart	
+	3063853772	graminhaEvent			\Default Work Unit\graminhaEvent	
+	3164408517	uiClick			\Default Work Unit\uiClick	
+	3978196478	musicStop			\Default Work Unit\musicStop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3207076740	graminha			\Default Work Unit\graminha	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1707713125	graminhaShifter	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	243245342	Beeh4	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\ES_Sheep Many Variations 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh4		538200
+	576445135	Beeh5	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\ES_Sheep Many Variations 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh5		453528
+	583308806	mixkit-grass-step-1920	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\GDP\mixkit-grass-step-1920_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\mixkit-grass-step-1920		102728
+	704499321	Beeh1	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\GDP\ES_Sheep Many Variations 3 - SFX Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh1		446528
+	806604223	click madeira	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\GDP\click madeira_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\click madeira		184448
+	834598158	Beeh3	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\ES_Sheep Many Variations_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh3		402724
+	841621187	Fazenda 1 2	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\GDP\Fazenda 1 2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Fazenda 1 2		16164784
+	881910503	Beeh2	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\SFX\GDP\ES_Sheep Many Variations 6 - SFX Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh2		491584
+

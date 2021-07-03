@@ -123,6 +123,7 @@ public class ovelha : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AkSoundEngine.PostEvent("sheepBeeh1", gameObject);
         if (!desaparecendo)
         {
             if (fugindo)

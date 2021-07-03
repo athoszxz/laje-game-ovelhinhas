@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1141835360">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2384466210">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3063853772" Name="graminhaEvent" ObjectPath="\Events\Default Work Unit\graminhaEvent" DurationType="OneShot" DurationMin="0.581995" DurationMax="0.581995">
+					<IncludedMemoryFiles>
+						<File Id="583308806" Language="SFX">
+							<ShortName>GDP\mixkit-grass-step-1920.wav</ShortName>
+							<Path>SFX\GDP\mixkit-grass-step-1920_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1122283870" Name="musicStart" ObjectPath="\Events\Default Work Unit\musicStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="841621187" Language="SFX">
+							<ShortName>GDP\Fazenda 1 2.wav</ShortName>
+							<Path>SFX\GDP\Fazenda 1 2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3978196478" Name="musicStop" ObjectPath="\Events\Default Work Unit\musicStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="740608359" Name="sheepBeeh1" ObjectPath="\Events\Default Work Unit\sheepBeeh1" DurationType="OneShot" DurationMin="0.000000" DurationMax="3.050658">
+					<IncludedMemoryFiles>
+						<File Id="243245342" Language="SFX">
+							<ShortName>ES_Sheep Many Variations 2.wav</ShortName>
+							<Path>SFX\ES_Sheep Many Variations 2_10C4C929.wem</Path>
+						</File>
+						<File Id="576445135" Language="SFX">
+							<ShortName>ES_Sheep Many Variations 4.wav</ShortName>
+							<Path>SFX\ES_Sheep Many Variations 4_10C4C929.wem</Path>
+						</File>
+						<File Id="704499321" Language="SFX">
+							<ShortName>GDP\ES_Sheep Many Variations 3 - SFX Producer.wav</ShortName>
+							<Path>SFX\GDP\ES_Sheep Many Variations 3 - SFX Producer_10C4C929.wem</Path>
+						</File>
+						<File Id="834598158" Language="SFX">
+							<ShortName>ES_Sheep Many Variations.wav</ShortName>
+							<Path>SFX\ES_Sheep Many Variations_10C4C929.wem</Path>
+						</File>
+						<File Id="881910503" Language="SFX">
+							<ShortName>GDP\ES_Sheep Many Variations 6 - SFX Producer.wav</ShortName>
+							<Path>SFX\GDP\ES_Sheep Many Variations 6 - SFX Producer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3164408517" Name="uiClick" ObjectPath="\Events\Default Work Unit\uiClick" DurationType="OneShot" DurationMin="0.960333" DurationMax="0.960333">
+					<IncludedMemoryFiles>
+						<File Id="806604223" Language="SFX">
+							<ShortName>GDP\click madeira.wav</ShortName>
+							<Path>SFX\GDP\click madeira_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3207076740" Name="graminha" ObjectPath="\Game Parameters\Default Work Unit\graminha"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
