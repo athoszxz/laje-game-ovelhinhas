@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{62127F56-685F-4EAC-B60B-A5567B2371EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="musicStart" ID="{714056F0-D82E-440E-B35C-2823702E1FA6}">
+					<ChildrenList>
+						<Action Name="" ID="{2B4B3471-469B-4726-9BC4-8F217DFA8977}" ShortID="700087065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fazenda 1 2" ID="{41492240-B72B-4FD3-B262-AFD0BF3380A0}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="musicStop" ID="{2DA8097C-2966-4D9A-84FF-3E4478357D27}">
+					<ChildrenList>
+						<Action Name="" ID="{080B84F6-8106-430B-9B70-064ACD6BB2BA}" ShortID="630145819">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fazenda 1 2" ID="{41492240-B72B-4FD3-B262-AFD0BF3380A0}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="uiClick" ID="{00752C7B-8BF6-4981-9A6B-E9FD1C009B8E}">
+					<ChildrenList>
+						<Action Name="" ID="{E5BE652D-CAFC-4FD3-90FB-EC3486C12776}" ShortID="287516139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="click madeira" ID="{94D0C34A-FE8F-496C-BB7D-985821E29741}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sheepBeeh1" ID="{ED4657B1-51D7-44FE-A0B0-ED26183C4D04}">
+					<ChildrenList>
+						<Action Name="" ID="{3B2E3F28-BABC-4F3C-8A85-0D5485B68825}" ShortID="259431578">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="0.011"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beehs" ID="{BA851C4D-AE56-4293-BAA0-095DDA8A6F29}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="graminhaEvent" ID="{2C41D429-2067-410C-A9CA-68AC524320AA}">
+					<ChildrenList>
+						<Action Name="" ID="{13A385DE-29CB-4A55-82E0-34C8ECD44855}" ShortID="1016769790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pisarCachorrao" ID="{E4B590DA-30D5-4BC4-AF3D-D13810288B33}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pisaCachorrinho" ID="{37DF1ADB-0F8E-4051-A076-B9758130E5E2}">
+					<ChildrenList>
+						<Action Name="" ID="{34D6DB41-7A52-4F3E-8396-39D3107A23C6}" ShortID="788632893">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pisarCachorrinho" ID="{B5B41CBC-2DC2-4872-AD50-236286C5825A}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pisaCachorrao" ID="{696740F3-A5AF-4344-801E-6D3B8DC7D98E}">
+					<ChildrenList>
+						<Action Name="" ID="{AB0A7F75-D3B8-40D0-9F19-957BE38A3495}" ShortID="114746017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pisarCachorrao" ID="{E4B590DA-30D5-4BC4-AF3D-D13810288B33}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="tadadadaah" ID="{1B3CD979-D573-4122-AE6D-1EF10EA90BC4}">
+					<ChildrenList>
+						<Action Name="" ID="{B00D5C3C-6271-492C-98B7-9BD2C24688DE}" ShortID="577646390">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vitória" ID="{4455E076-B620-4ED7-836C-3C3137D9E0FC}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="derrota" ID="{EBF55DAE-3826-4F76-B09B-ED2E5DF4B6E2}">
+					<ChildrenList>
+						<Action Name="" ID="{23697955-890C-4546-AFD1-68FCCA677BD6}" ShortID="732743558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funk do Cachorrinho Fiadaputa" ID="{DB5F05F7-F701-4C12-8B89-545AA3531539}" WorkUnitID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

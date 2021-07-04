@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE9669E5-CA53-4AC0-8BED-1D7E3E90ED2C}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{FE9669E5-CA53-4AC0-8BED-1D7E3E90ED2C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="graminha" ID="{A009A651-E58F-48D0-AA03-C3F2CC07741F}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
