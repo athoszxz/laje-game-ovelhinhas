@@ -15,11 +15,11 @@ C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49447
+50281
 Successfully changed project path to: C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
 C:/Users/Gohan/Downloads/Ovelhinhas_Voajantes
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,320 +35,531 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005808 seconds.
+Registered in 0.001826 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.702 seconds
+- Completed reload, in  1.629 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005327 seconds.
+Registered in 0.004172 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
 Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
+- Completed reload, in  0.807 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2374 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.8 MB.
 System memory in use after: 103.9 MB.
 
 Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2797.
-Total: 2.126400 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.082800 ms MarkObjects: 1.562500 ms  DeleteObjects: 0.100300 ms)
+Total: 2.177500 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.675800 ms  DeleteObjects: 0.110700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Documentation/Cheatsheet Images/2 - Movement2.jpg
+  artifactKey: Guid(e5a80eb666e8e4390a592998b7dedf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/2 - Movement2.jpg using Guid(e5a80eb666e8e4390a592998b7dedf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893a9179b3e72f043726908aa0431476') in 0.090050 seconds
+  Import took 0.093317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Documentation/Cheatsheet Images/1 - Movement.jpg
+  artifactKey: Guid(14ee5020067ee4fa9ac1f2a46f649b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/1 - Movement.jpg using Guid(14ee5020067ee4fa9ac1f2a46f649b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48395d28e1cee6bdca9f81260f63dcd3') in 0.019106 seconds
+  Import took 0.022920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Documentation/Cheatsheet Images/6 - Actions.jpg
+  artifactKey: Guid(ba4edb2aa7a5b4ebc858f03971d0d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/6 - Actions.jpg using Guid(ba4edb2aa7a5b4ebc858f03971d0d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66177c3115892eff0e198ab2abfa180') in 0.020664 seconds
+  Import took 0.024387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Documentation/Cheatsheet Images/3 - Gameplay.jpg
+  artifactKey: Guid(2b03b797b3ef046e29c7a30c5d5a0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/3 - Gameplay.jpg using Guid(2b03b797b3ef046e29c7a30c5d5a0cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606f1bbf862a9d867a5e9bc79ee99aa4') in 0.022629 seconds
+  Import took 0.026261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Documentation/Cheatsheet Images/4 - Attributes.jpg
+  artifactKey: Guid(39d17799f40f543dea45417dcca2215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/4 - Attributes.jpg using Guid(39d17799f40f543dea45417dcca2215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a971e5979cf12372a8acb4f9e180e50c') in 0.022297 seconds
+  Import took 0.025337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Documentation/Cheatsheet Images/5 - Conditions.jpg
+  artifactKey: Guid(822782c9f82014cd49743c32ca050928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/5 - Conditions.jpg using Guid(822782c9f82014cd49743c32ca050928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea54631e1731d4bcb87ec9f5a9e228b') in 0.019023 seconds
+  Import took 0.022540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Documentation/Cheatsheet Images/7 - Challenges.jpg
+  artifactKey: Guid(13c818410f5d34c52a783aca7ce31e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Documentation/Cheatsheet Images/7 - Challenges.jpg using Guid(13c818410f5d34c52a783aca7ce31e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9ee9ab354c1f5c71ee7e070a5df786') in 0.019696 seconds
+  Import took 0.023404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.406928 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf1f00e8f38a53d0e10344bf192349d') in 0.017316 seconds
+  Import took 0.020877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106826 seconds.
+  path: Assets/Images/Character/Hair/Hair1.png
+  artifactKey: Guid(1380bbbb7a2808a4da7b615764099db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair1.png using Guid(1380bbbb7a2808a4da7b615764099db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60c31f7d4b2862f80493c5b91586c0') in 0.047358 seconds
+  Import took 0.051289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Images/Character/Hair/Hair9.png
+  artifactKey: Guid(72b97d7c2ecb53f40b67f6a46253c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair9.png using Guid(72b97d7c2ecb53f40b67f6a46253c818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a2d69c60b3d2724f86284aa1fcd170') in 0.029125 seconds
+  Import took 0.032492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Images/Character/Hats/Hat5.png
+  artifactKey: Guid(4f1b59d24fb6cd649ab350406f7d8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat5.png using Guid(4f1b59d24fb6cd649ab350406f7d8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b7b5c5785b242af8191954b4a8987f') in 0.022033 seconds
+  Import took 0.026065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Images/Character/Hats/Hat6.png
+  artifactKey: Guid(256c1862f6095f04484742acbd11fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat6.png using Guid(256c1862f6095f04484742acbd11fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a54f4615f7827c8b320b82685b1e6b4') in 0.024632 seconds
+  Import took 0.027987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Images/Character/Hair/Hair18.png
+  artifactKey: Guid(89c23af4f855b1d42a3424fecda5db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair18.png using Guid(89c23af4f855b1d42a3424fecda5db03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41062b11ee3b4c2129714e35ec946eff') in 0.031723 seconds
+  Import took 0.035051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Images/Character/Mouths/Mouth2.png
+  artifactKey: Guid(e1cfafa7d9e6ad74ebcbc3b2c41e557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth2.png using Guid(e1cfafa7d9e6ad74ebcbc3b2c41e557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d83bc28416bd47a96f1a5578233bd7') in 0.039744 seconds
+  Import took 0.044050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Images/Character/Mouths/Mouth17.png
+  artifactKey: Guid(672e7390cf8e9d042b5203a8cab8e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth17.png using Guid(672e7390cf8e9d042b5203a8cab8e6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942a261015dc1f64303f9bfe3b495fc7') in 0.028475 seconds
+  Import took 0.031697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/Character/Mouths/Mouth14.png
+  artifactKey: Guid(d756ab924dba80d49b38e678e35dc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth14.png using Guid(d756ab924dba80d49b38e678e35dc738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e189fe3005d749e1cb8cbcdbfa5d0d') in 0.020452 seconds
+  Import took 0.024588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Images/Character/Mouths/Mouth15.png
+  artifactKey: Guid(3b88c581d318a2640b0f6bb9aacc4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth15.png using Guid(3b88c581d318a2640b0f6bb9aacc4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0303795818f9bb269092d84acbcccae7') in 0.018692 seconds
+  Import took 0.022343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Images/Character/Hats/Hat7.png
+  artifactKey: Guid(6b1520ab3c3b6bc4fb5d9bbe7a9f3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat7.png using Guid(6b1520ab3c3b6bc4fb5d9bbe7a9f3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245b1c2cb95a2b4bb6aa6407a1bddcea') in 0.020504 seconds
+  Import took 0.023941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Images/Character/Mouths/Mouth9.png
+  artifactKey: Guid(752a4ab929ee36f469fd15b0b1f1e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth9.png using Guid(752a4ab929ee36f469fd15b0b1f1e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a8c7199e4336dd228378ed908ec30e') in 0.015447 seconds
+  Import took 0.018884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Character/Hair/Hair2.png
+  artifactKey: Guid(84c5e323a11ce494b92f8cb4d929e4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair2.png using Guid(84c5e323a11ce494b92f8cb4d929e4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a885d7270b84304d59acf424a7e956fa') in 0.020001 seconds
+  Import took 0.023851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Images/Character/Hair/Hair4.png
+  artifactKey: Guid(3d04ad32726a70a439e2b864fe7ea3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair4.png using Guid(3d04ad32726a70a439e2b864fe7ea3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d088887a392b3a2335ab1d80df52861') in 0.024033 seconds
+  Import took 0.027134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Images/Character/Hair/Hair15.png
+  artifactKey: Guid(a9371aaaf85d4b94badb80d3ec822838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair15.png using Guid(a9371aaaf85d4b94badb80d3ec822838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189ba65d87bce6fa95c406efaf1c603e') in 0.025391 seconds
+  Import took 0.028361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Images/Character/Hats/Hat1.png
+  artifactKey: Guid(a5f27b2378f630f47947276d25292978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat1.png using Guid(a5f27b2378f630f47947276d25292978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce38145829fd071add5839afdc794442') in 0.021092 seconds
+  Import took 0.024601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Images/Character/Hats/Hat2.png
+  artifactKey: Guid(59c16beaa1d2b924c93a8b5e2133c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat2.png using Guid(59c16beaa1d2b924c93a8b5e2133c53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cac3e41689021a14134ddc6bd51ba9') in 0.023133 seconds
+  Import took 0.026387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Images/Character/Hair/Hair8.png
+  artifactKey: Guid(6eb0a086502b03f4383147c4a0d0bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair8.png using Guid(6eb0a086502b03f4383147c4a0d0bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa12b088a8ae9985148d01a50a373839') in 0.021000 seconds
+  Import took 0.025380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Images/Character/Mouths/Mouth7.png
+  artifactKey: Guid(24b3fe2c55ec0244ba2545e8c67492bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth7.png using Guid(24b3fe2c55ec0244ba2545e8c67492bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb56738107539aaacbe2b5df204cbe6') in 0.017995 seconds
+  Import took 0.021804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Images/Character/Mouths/Mouth3.png
+  artifactKey: Guid(d99bfd146d3f6c94dbd95179ac099073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth3.png using Guid(d99bfd146d3f6c94dbd95179ac099073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b94636cfa4ff3cbc6be4999802445c') in 0.020170 seconds
+  Import took 0.023771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Images/Character/Hair/Hair7.png
+  artifactKey: Guid(e3fb105399f4a83459e64f5a8edf0bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair7.png using Guid(e3fb105399f4a83459e64f5a8edf0bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e3bc5d4b42f6fcf3130bd0e7dc6398') in 0.021338 seconds
+  Import took 0.024767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Images/Character/Hair/Hair11.png
+  artifactKey: Guid(9444d394afbf24643bc9a41d260d8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair11.png using Guid(9444d394afbf24643bc9a41d260d8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b395e04a4f7905aa9fd1d1db772d01e2') in 0.019001 seconds
+  Import took 0.021966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Images/Character/Mouths/Mouth12.png
+  artifactKey: Guid(7f6b986e045fa234eb76536d210b0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth12.png using Guid(7f6b986e045fa234eb76536d210b0d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5102099cb8b8a068592521b1cfdffe5d') in 0.018540 seconds
+  Import took 0.022262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Images/Character/Mouths/Mouth10.png
+  artifactKey: Guid(2e0348053da07cd42bcd3013e136ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth10.png using Guid(2e0348053da07cd42bcd3013e136ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9881f028bf3bef2a6780e2510f5ed9') in 0.015922 seconds
+  Import took 0.020109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Images/Character/Mouths/Mouth6.png
+  artifactKey: Guid(d8c6bf949687d254b94c7296e55fe413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth6.png using Guid(d8c6bf949687d254b94c7296e55fe413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19518e74ba954e3f8dbc5ebd0690b89') in 0.018773 seconds
+  Import took 0.022494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Images/Character/Hair/Hair6.png
+  artifactKey: Guid(721e84b6376df1c448235c44d4eb815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair6.png using Guid(721e84b6376df1c448235c44d4eb815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8615bc16f12ff6b9f7ecc17c3742ad7e') in 0.020218 seconds
+  Import took 0.023482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Images/Character/Mouths/Mouth11.png
+  artifactKey: Guid(e3251b4e57d314949a5d72485f5c64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth11.png using Guid(e3251b4e57d314949a5d72485f5c64a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37c36ea3e51e67ce4fed693528e509') in 0.015672 seconds
+  Import took 0.019759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Images/Character/Mouths/Mouth18.png
+  artifactKey: Guid(7caf3d428aefd6a4c99ce596b05d19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth18.png using Guid(7caf3d428aefd6a4c99ce596b05d19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dd21ec75b55083c7679331792dc372') in 0.018857 seconds
+  Import took 0.022733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/Character/Hair/Hair10.png
+  artifactKey: Guid(dc2052353e1eaa94291fcfa9c80ef388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair10.png using Guid(dc2052353e1eaa94291fcfa9c80ef388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1fb628a946d18c8bd4029df1ec8dac') in 0.021993 seconds
+  Import took 0.025370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Images/Character/Mouths/Mouth13.png
+  artifactKey: Guid(588739ff56957ad44b7fb35a8d2a2c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth13.png using Guid(588739ff56957ad44b7fb35a8d2a2c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dc7f262c194348e3f98047e8245cc2') in 0.018852 seconds
+  Import took 0.022320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Images/Character/Hats/Hat3.png
+  artifactKey: Guid(5705bf762003aa04f8d3735e7949e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat3.png using Guid(5705bf762003aa04f8d3735e7949e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e2bcaef69b2a68748abca31e0787a2') in 0.020777 seconds
+  Import took 0.023711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Images/Character/Mouths/Mouth16.png
+  artifactKey: Guid(1fdbabb1c5aceb640ab384e9787ff6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth16.png using Guid(1fdbabb1c5aceb640ab384e9787ff6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab95a60f322b7ebd63cd4ca8243c420') in 0.016871 seconds
+  Import took 0.020048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Images/Character/Hair/Hair17.png
+  artifactKey: Guid(677621544cf411749b830a64f90da998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair17.png using Guid(677621544cf411749b830a64f90da998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ac26b2253bfd16667169b38c18c284') in 0.022280 seconds
+  Import took 0.025882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Images/Character/Hair/Hair12.png
+  artifactKey: Guid(ea9a2621c48f4b94782d002d68c2286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair12.png using Guid(ea9a2621c48f4b94782d002d68c2286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3831246b88ee9ec171587e5aa002adc7') in 0.018639 seconds
+  Import took 0.021900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Images/Character/Hair/Hair14.png
+  artifactKey: Guid(a63ee439133b7d3488b72484d5a8825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair14.png using Guid(a63ee439133b7d3488b72484d5a8825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7806ce11907a904657185a268361e2') in 0.019287 seconds
+  Import took 0.022754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Images/Character/Mouths/Mouth8.png
+  artifactKey: Guid(aa5982013d27c6b45b97af849963f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth8.png using Guid(aa5982013d27c6b45b97af849963f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3eeb7ca1ca355b15b54313c978591c') in 0.019137 seconds
+  Import took 0.022243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Images/Character/Hair/Hair16.png
+  artifactKey: Guid(58c4592056c92374e83b1cf8823675a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair16.png using Guid(58c4592056c92374e83b1cf8823675a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c68d5449403f7e460593b7eb5c55bc') in 0.019094 seconds
+  Import took 0.022852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Images/Character/Hats/Hat8.png
+  artifactKey: Guid(47abd67f201af7542b26ff5a648624b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat8.png using Guid(47abd67f201af7542b26ff5a648624b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d55a95fe3664f048e70b0124626063c') in 0.023444 seconds
+  Import took 0.026937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Images/Character/Hats/Hat4.png
+  artifactKey: Guid(b8b0e4804dc41df4ba6555b1df82d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hats/Hat4.png using Guid(b8b0e4804dc41df4ba6555b1df82d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd2f79330f519d54df5064ac35554c8') in 0.020576 seconds
+  Import took 0.024318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/Character/Mouths/Mouth4.png
+  artifactKey: Guid(5627d8dbec1868f4c93cd50576fcf71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth4.png using Guid(5627d8dbec1868f4c93cd50576fcf71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f23b9b85fe06f12a5fa88954a9d420') in 0.020722 seconds
+  Import took 0.024500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Images/Character/Mouths/Mouth5.png
+  artifactKey: Guid(7b86254476f1dfc4f90ff43ac0c59826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth5.png using Guid(7b86254476f1dfc4f90ff43ac0c59826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f2ba02bd2f6b2c664f32b48d10bfd') in 0.020056 seconds
+  Import took 0.024188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Images/Character/Hair/Hair5.png
+  artifactKey: Guid(59ba78efa04475742afd1f0f87be22d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair5.png using Guid(59ba78efa04475742afd1f0f87be22d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0c6fee9d10852370a4516c0c300d41') in 0.021318 seconds
+  Import took 0.024756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Images/Character/Hair/Hair13.png
+  artifactKey: Guid(9902e624c50fd5044958dd3b8fa7376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair13.png using Guid(9902e624c50fd5044958dd3b8fa7376a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875ae6fe1fdd5688d44633a55624c892') in 0.023241 seconds
+  Import took 0.026398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284820 seconds.
+  path: Assets/Images/Character/Mouths/Mouth1.png
+  artifactKey: Guid(dd9a9999508fc1245a0efe9ee43c97a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Mouths/Mouth1.png using Guid(dd9a9999508fc1245a0efe9ee43c97a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516c56a5ee4f063428e4c36b466c55af') in 0.015943 seconds
+  Import took 0.019427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.187868 seconds.
+  path: Assets/Images/Character/Hair/Hair3.png
+  artifactKey: Guid(4c680c4bc9dd78548a07c4fa3e6d2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Character/Hair/Hair3.png using Guid(4c680c4bc9dd78548a07c4fa3e6d2e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91b73f388edbbaeef33a6ae21b9218') in 0.020285 seconds
+  Import took 0.023790 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 7.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 7.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.1 MB.
-System memory in use after: 56.2 MB.
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2797.
-Total: 1.886300 ms (FindLiveObjects: 0.270100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.472800 ms  DeleteObjects: 0.079100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/MenuPrincipal.unity
-  artifactKey: Guid(d8ab7b57088e65549995044bf7a7caf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuPrincipal.unity using Guid(d8ab7b57088e65549995044bf7a7caf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f02a3c868416f0acdc8393d42e4595b') in 0.017852 seconds
-  Import took 0.021574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.522542 seconds.
-  path: Assets/Scenes/Fase1.unity
-  artifactKey: Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase1.unity using Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f07349fc98a5116db32ac1205b16d1') in 0.002367 seconds
-  Import took 0.006125 seconds .
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 2.471400 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.058800 ms MarkObjects: 2.044400 ms  DeleteObjects: 0.103000 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006292 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.3 MB.
-System memory in use after: 102.4 MB.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2801.
-Total: 2.983400 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.081500 ms MarkObjects: 2.373500 ms  DeleteObjects: 0.105100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.073842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.4 MB.
-System memory in use after: 102.5 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2805.
-Total: 1.926300 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.506900 ms  DeleteObjects: 0.082000 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 2.490000 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.062700 ms  DeleteObjects: 0.082200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3504.430430 seconds.
-  path: Assets/Scenes/TelaDerrota.unity
-  artifactKey: Guid(bc6522fa135396a4b9c865ac5215a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TelaDerrota.unity using Guid(bc6522fa135396a4b9c865ac5215a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd43742a18955c890cfcfe4429e567a') in 0.039158 seconds
-  Import took 0.043481 seconds .
+  Time since last request: 289.657982 seconds.
+  path: Assets/Scenes/Fase2.unity
+  artifactKey: Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Fase2.unity using Guid(ed502de7d63960040b59463bb3c32f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f17f75076ad884fc2fce9a6c6eb1451') in 0.009954 seconds
+  Import took 0.013665 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.954102 seconds.
-  path: Assets/Images/Lia e Julie/derrota.png
-  artifactKey: Guid(821ffbe21f52438479f5e57776f9f7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Lia e Julie/derrota.png using Guid(821ffbe21f52438479f5e57776f9f7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9748375fce803069b8ba6224deeb451') in 0.149547 seconds
-  Import took 0.152983 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004213 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.5 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2815.
-Total: 1.911900 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.060200 ms MarkObjects: 1.511200 ms  DeleteObjects: 0.086500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 196.775846 seconds.
+  Time since last request: 46.030484 seconds.
   path: Assets/Scenes/Vitoria1.unity
   artifactKey: Guid(7c3b814583ea1974fbcdce6743faa701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Vitoria1.unity using Guid(7c3b814583ea1974fbcdce6743faa701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da73a8ac772eb47c1a4525a116fca2f0') in 0.017728 seconds
-  Import took 0.021279 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.5 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2819.
-Total: 2.148600 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.726400 ms  DeleteObjects: 0.093800 ms)
+Start importing Assets/Scenes/Vitoria1.unity using Guid(7c3b814583ea1974fbcdce6743faa701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac22941a37109edf91190f6f075fbc29') in 0.009713 seconds
+  Import took 0.013403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.549506 seconds.
-  path: Assets/Images/Lia e Julie/azul.png
-  artifactKey: Guid(aed02bf38283a9147960a01ecb0a3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Lia e Julie/azul.png using Guid(aed02bf38283a9147960a01ecb0a3e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbff8ab3f942241ae595eeffc24008e2') in 0.058342 seconds
-  Import took 0.061964 seconds .
+  Time since last request: 2.036904 seconds.
+  path: Assets/Scenes/Vitoria2.unity
+  artifactKey: Guid(19bcf16879849a344889cdc9edd88b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Vitoria2.unity using Guid(19bcf16879849a344889cdc9edd88b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c327418e6fb57151a351f80d2944481') in 0.006205 seconds
+  Import took 0.009567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.420992 seconds.
-  path: Assets/Images/Lia e Julie/vitoria.png
-  artifactKey: Guid(20404612f7de57544bbf3589d7aa3bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Lia e Julie/vitoria.png using Guid(20404612f7de57544bbf3589d7aa3bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2017d2bbd179ddd50e4bcb86143495f9') in 0.027007 seconds
-  Import took 0.030408 seconds .
+  Time since last request: 4.839263 seconds.
+  path: Assets/Scenes/TelaDerrota.unity
+  artifactKey: Guid(bc6522fa135396a4b9c865ac5215a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TelaDerrota.unity using Guid(bc6522fa135396a4b9c865ac5215a789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b7a3f736a9ca0c3880c35dd4e96e17') in 0.003258 seconds
+  Import took 0.007478 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004235 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 6.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.716 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.5 MB.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2828.
-Total: 2.261100 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.774500 ms  DeleteObjects: 0.125200 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 2.549800 ms (FindLiveObjects: 0.294200 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.098900 ms  DeleteObjects: 0.088800 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004975 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.5 MB.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2832.
-Total: 2.188700 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.063800 ms MarkObjects: 1.692000 ms  DeleteObjects: 0.122000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 649.048387 seconds.
-  path: Assets/Scenes/Fase1.unity
-  artifactKey: Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase1.unity using Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1715e5418be3e811295ad96866f2b') in 0.014922 seconds
-  Import took 0.018644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.178742 seconds.
-  path: Assets/Scenes/Fase1.unity
-  artifactKey: Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Fase1.unity using Guid(8b655b0fb8d8c4758a154fd99dc41447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb1715e5418be3e811295ad96866f2b') in 0.002441 seconds
-  Import took 0.006099 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004155 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.6 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2836.
-Total: 1.942800 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.065200 ms MarkObjects: 1.520600 ms  DeleteObjects: 0.090200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004269 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.5 MB.
-System memory in use after: 105.6 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2840.
-Total: 1.999400 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.532900 ms  DeleteObjects: 0.096700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004430 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Can't find custom attr constructor image: C:\Users\Gohan\Downloads\Ovelhinhas_Voajantes\Library\PackageCache\com.unity.ads@3.4.4\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.5 MB.
-System memory in use after: 105.6 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2844.
-Total: 3.396400 ms (FindLiveObjects: 0.492500 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.672100 ms  DeleteObjects: 0.143700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 2.533300 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.079100 ms  DeleteObjects: 0.102000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
