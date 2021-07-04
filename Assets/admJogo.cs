@@ -65,7 +65,7 @@ public class admJogo : MonoBehaviour
 
     public void configTextoOvelhas()
     {
-        textoOvelhas.text = ovelhasCapturadas + "/" + ovelhasTotal / 2 + "\n\n\n" + ovelhasPerdidas + "/" + ovelhasTotal;
+        textoOvelhas.text = ovelhasCapturadas + "/" + ovelhasTotal / 2 + "\n\n\n" + ovelhasPerdidas + "/" + ovelhasTotal / 2;
     } 
 
     public void startTempo()
@@ -102,6 +102,11 @@ public class admJogo : MonoBehaviour
                 contandoTempo = false;
 
                 textoTempo.text = $"{0:00}:{0:00}";            
+                perderJogo();
+            }
+            
+            if (ovelhasPerdidas == ovelhasTotal/2)
+            {
                 perderJogo();
             }
 
