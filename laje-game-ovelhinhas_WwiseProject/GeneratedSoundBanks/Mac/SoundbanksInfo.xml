@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2384466210">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1696685660">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -38,6 +38,22 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3978196478" Name="musicStop" ObjectPath="\Events\Default Work Unit\musicStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1207970504" Name="pisaCachorrao" ObjectPath="\Events\Default Work Unit\pisaCachorrao" DurationType="OneShot" DurationMin="0.581995" DurationMax="0.581995">
+					<IncludedMemoryFiles>
+						<File Id="583308806" Language="SFX">
+							<ShortName>GDP\mixkit-grass-step-1920.wav</ShortName>
+							<Path>SFX\GDP\mixkit-grass-step-1920_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="424210094" Name="pisaCachorrinho" ObjectPath="\Events\Default Work Unit\pisaCachorrinho" DurationType="OneShot" DurationMin="0.451742" DurationMax="0.451742">
+					<IncludedMemoryFiles>
+						<File Id="584782415" Language="SFX">
+							<ShortName>GDP\mixkit-grass-step-1920.wav</ShortName>
+							<Path>SFX\GDP\mixkit-grass-step-1920_12E665F4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="740608359" Name="sheepBeeh1" ObjectPath="\Events\Default Work Unit\sheepBeeh1" DurationType="OneShot" DurationMin="0.000000" DurationMax="3.050658">
 					<IncludedMemoryFiles>
 						<File Id="243245342" Language="SFX">

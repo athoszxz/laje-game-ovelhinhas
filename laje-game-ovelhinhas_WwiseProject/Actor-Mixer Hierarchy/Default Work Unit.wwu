@@ -100,6 +100,11 @@
 						<Sound Name="Fazenda 1 2" ID="{41492240-B72B-4FD3-B262-AFD0BF3380A0}" ShortID="88954233">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -123,7 +128,48 @@
 								<ActiveSource Name="Fazenda 1 2" ID="{F51B2443-E4C7-42B9-B4B1-AFE9EB8394FE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="mixkit-grass-step-1920" ID="{E4B590DA-30D5-4BC4-AF3D-D13810288B33}" ShortID="998613225">
+						<Sound Name="pisarCachorrao" ID="{E4B590DA-30D5-4BC4-AF3D-D13810288B33}" ShortID="998613225">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{5BAE90F9-81D7-487B-9F5B-1FA497FD2EBB}" ShortID="705520042">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{EF523536-5984-4085-A16D-CD4DF3EF7713}" ShortID="864558838">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{363695B4-4B1D-422C-9BDB-1A7D6A79A563}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-613</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-121</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
@@ -152,6 +198,11 @@
 						<RandomSequenceContainer Name="Beehs" ID="{BA851C4D-AE56-4293-BAA0-095DDA8A6F29}" ShortID="656424770">
 							<PropertyList>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -331,6 +382,236 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="ES_Sheep Many Variations 7" ID="{50BC0EEB-EC28-424E-B200-E8CA1DF22BE3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarCachorrinho" ID="{B5B41CBC-2DC2-4872-AD50-236286C5825A}" ShortID="602193284">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4A23848B-FDF3-474F-B668-76E055F21562}" ShortID="345513089">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{79C9E8CF-DF8F-4E18-B035-5D1F987DC864}" ShortID="470643148">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E2ED6741-BE63-41A6-8BE9-AD172B1F7642}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>500</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{FDB0226A-797D-4BC9-9ECC-7BAB3A6F66B2}" ShortID="350009161">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{F7CF7893-E314-45F5-96F6-01CCB90A0B72}" ShortID="843605714">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{00627C36-8DFA-41A2-B88D-BDB95AF380B2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6.23093</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-2.9392</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{177BD347-8C8A-429D-833D-7F6C65025EC0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.265149796308208"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.310175233417149"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.533634810180041"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.103391744472383"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584782415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{177BD347-8C8A-429D-833D-7F6C65025EC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarOvelhas" ID="{3CD2C20B-344E-48D6-A577-979FCA9A9E7F}" ShortID="520065738">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{64812F0D-03E2-4D89-A6F2-D764AEEAC774}" ShortID="311290836">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{435B5CFD-6A12-4E6B-B826-56229BD2D493}" ShortID="964484259">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F0A0DFC3-EBBC-47AF-A91F-0099E8122084}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>200</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{4F8FDA40-D271-4250-A16C-09048E353034}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583308806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{4F8FDA40-D271-4250-A16C-09048E353034}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarRaposa" ID="{E502A899-32B0-4773-90EB-BBBA05995D6F}" ShortID="133169647">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{1F07A5C9-73A1-49EC-9BA8-5D024B8F91BE}" ShortID="811006854">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{6270B075-2075-4534-A2CE-AA9F8C72075D}" ShortID="765979495">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D40A2685-6C66-4B65-B77A-2BEA940AE457}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>200</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{B23BB13F-228A-4A7C-B524-2373A5CFABEF}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583308806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{B23BB13F-228A-4A7C-B524-2373A5CFABEF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

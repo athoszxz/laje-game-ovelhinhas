@@ -37659,6 +37659,7 @@ GameObject:
   - component: {fileID: 811112636}
   - component: {fileID: 811112637}
   - component: {fileID: 811112638}
+  - component: {fileID: 811112639}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -37684,6 +37685,8 @@ MonoBehaviour:
   movementType: 0
   orientToDirection: 1
   lookAxis: 0
+  passosVar: {fileID: 0}
+  isWalking: 0
 --- !u!50 &811112631
 Rigidbody2D:
   serializedVersion: 4
@@ -37861,6 +37864,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: 1
   deathEffect: {fileID: 0}
+--- !u!114 &811112639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811112629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab263c38d2f9a79479f4206748f30d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToStep: 0.4
+  eventName: pisaCachorrao
+  move: {fileID: 811112630}
 --- !u!1 &811955984
 GameObject:
   m_ObjectHideFlags: 0
@@ -38175,7 +38193,7 @@ Transform:
   m_Children:
   - {fileID: 1556591795}
   m_Father: {fileID: 0}
-  m_RootOrder: 813
+  m_RootOrder: 815
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &818994496
 GameObject:
@@ -45251,7 +45269,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982343583}
-  m_LocalRotation: {x: 0.000000014985895, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.000000011339974, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5450001, y: -0.54499996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -49970,7 +49988,7 @@ Transform:
   m_Children:
   - {fileID: 998307186}
   m_Father: {fileID: 0}
-  m_RootOrder: 814
+  m_RootOrder: 817
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1082753141
 GameObject:
@@ -54092,7 +54110,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 812
+  m_RootOrder: 813
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1143388925
 GameObject:
@@ -66199,7 +66217,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -66222,7 +66240,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388876657}
-  m_LocalRotation: {x: 0.000000014985895, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.000000011339974, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5450001, y: -0.54499996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -69138,7 +69156,7 @@ PrefabInstance:
     - target: {fileID: 3875597170013201781, guid: a108007478895c1409fcbc63efba2295,
         type: 3}
       propertyPath: m_RootOrder
-      value: 813
+      value: 814
       objectReference: {fileID: 0}
     - target: {fileID: 3875597170013201781, guid: a108007478895c1409fcbc63efba2295,
         type: 3}
@@ -89511,6 +89529,7 @@ GameObject:
   - component: {fileID: 1908508977}
   - component: {fileID: 1908508978}
   - component: {fileID: 1908508979}
+  - component: {fileID: 1908508980}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -89536,6 +89555,8 @@ MonoBehaviour:
   movementType: 0
   orientToDirection: 1
   lookAxis: 0
+  passosVar: {fileID: 0}
+  isWalking: 0
 --- !u!50 &1908508973
 Rigidbody2D:
   serializedVersion: 4
@@ -89699,6 +89720,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1908508980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908508971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab263c38d2f9a79479f4206748f30d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToStep: 0.3
+  eventName: pisaCachorrinho
+  move: {fileID: 1908508972}
 --- !u!1 &1912883837
 GameObject:
   m_ObjectHideFlags: 0
@@ -99294,7 +99330,7 @@ PrefabInstance:
     - target: {fileID: 1529933640150851166, guid: 33054504197a8f346ad9dd6169bd4be8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 814
+      value: 816
       objectReference: {fileID: 0}
     - target: {fileID: 1529933640150851166, guid: 33054504197a8f346ad9dd6169bd4be8,
         type: 3}

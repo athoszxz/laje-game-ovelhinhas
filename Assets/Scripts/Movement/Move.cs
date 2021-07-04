@@ -8,6 +8,7 @@ public class Move : Physics2DObject
 	[Header("Input keys")]
 	public Enums.KeyGroups typeOfControl = Enums.KeyGroups.ArrowKeys;
 
+
 	[Header("Movement")]
 	[Tooltip("Speed of movement")]
 	public float speed = 5f;
@@ -18,11 +19,14 @@ public class Move : Physics2DObject
 	// The direction that will face the player
 	public Enums.Directions lookAxis = Enums.Directions.Up;
 
+	public passos passosVar;
+
 	private Vector2 movement, cachedDirection;
 	private float moveHorizontal;
 	private float moveVertical;
 	private Animator myAnimator;
 	private Rigidbody2D myRb;
+	public bool isWalking = false;
 
     private void Awake()
     {
@@ -67,10 +71,12 @@ public class Move : Physics2DObject
 			{
 				cachedDirection = movement;
 				myAnimator.SetBool("andando", true);
+				isWalking = true;
 			}
             else
             {
 				myAnimator.SetBool("andando", false);
+				isWalking = false;
 			}
 			Utils.SetAxisTowards(lookAxis, transform, cachedDirection);
 		}

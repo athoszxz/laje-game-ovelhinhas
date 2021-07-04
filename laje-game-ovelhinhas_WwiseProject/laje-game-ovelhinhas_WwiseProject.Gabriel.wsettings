@@ -5,7 +5,11 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Gabriel\Desktop\GDP\"/>
 				<Property Name="Event Action List\{00752C7B-8BF6-4981-9A6B-E9FD1C009B8E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C41D429-2067-410C-A9CA-68AC524320AA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2DA8097C-2966-4D9A-84FF-3E4478357D27}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3798EED2-C831-4E6C-B88D-4C267ECE2666}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{37DF1ADB-0F8E-4051-A076-B9758130E5E2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{696740F3-A5AF-4344-801E-6D3B8DC7D98E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{714056F0-D82E-440E-B35C-2823702E1FA6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{755122AE-14A0-4F5F-96D7-4A51D7E3FACB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ED4657B1-51D7-44FE-A0B0-ED26183C4D04}\x64_Expand States" Type="string" Value=""/>

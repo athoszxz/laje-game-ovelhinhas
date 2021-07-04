@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID GRAMINHAEVENT = 3063853772U;
         static const AkUniqueID MUSICSTART = 1122283870U;
         static const AkUniqueID MUSICSTOP = 3978196478U;
+        static const AkUniqueID PISACACHORRAO = 1207970504U;
+        static const AkUniqueID PISACACHORRINHO = 424210094U;
         static const AkUniqueID SHEEPBEEH1 = 740608359U;
         static const AkUniqueID UICLICK = 3164408517U;
     } // namespace EVENTS

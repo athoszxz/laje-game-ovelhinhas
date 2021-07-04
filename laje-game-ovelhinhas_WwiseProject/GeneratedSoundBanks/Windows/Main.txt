@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	424210094	pisaCachorrinho			\Default Work Unit\pisaCachorrinho	
 	740608359	sheepBeeh1			\Default Work Unit\sheepBeeh1	
 	1122283870	musicStart			\Default Work Unit\musicStart	
+	1207970504	pisaCachorrao			\Default Work Unit\pisaCachorrao	
 	3063853772	graminhaEvent			\Default Work Unit\graminhaEvent	
 	3164408517	uiClick			\Default Work Unit\uiClick	
 	3978196478	musicStop			\Default Work Unit\musicStop	
@@ -8,13 +10,19 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3207076740	graminha			\Default Work Unit\graminha	
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	470643148	Modulator LFO (Custom)				
+	843605714	Modulator LFO (Custom)				
+	864558838	Modulator LFO (Custom)				
+
 Effect plug-ins	ID	Name	Type				Notes
 	1707713125	graminhaShifter	Wwise Pitch Shifter			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	243245342	Beeh4	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\ES_Sheep Many Variations 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh4		538200
 	576445135	Beeh5	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\ES_Sheep Many Variations 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh5		453528
-	583308806	mixkit-grass-step-1920	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\GDP\mixkit-grass-step-1920_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\mixkit-grass-step-1920		102728
+	583308806	pisarCachorrao	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\GDP\mixkit-grass-step-1920_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\pisarCachorrao		102728
+	584782415	pisarCachorrinho	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\GDP\mixkit-grass-step-1920_12E665F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\pisarCachorrinho		84488
 	704499321	Beeh1	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\GDP\ES_Sheep Many Variations 3 - SFX Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh1		446528
 	806604223	click madeira	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\GDP\click madeira_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\click madeira		184448
 	834598158	Beeh3	C:\Users\Gabriel\Desktop\laje-game-ovelhinhas\laje-game-ovelhinhas_WwiseProject\.cache\Windows\SFX\ES_Sheep Many Variations_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GDP\Beehs\Beeh3		402724

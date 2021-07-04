@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 741a78261f1c6244902b384ebb28b799
     GuidInternal: 
-    m_lastTime: -8585762698490266453
+    m_lastTime: -8585762565427744699
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a71d9979c7e0cc43afaa6c4b3346986a
     GuidInternal: 
-    m_lastTime: -8585762693650438013
+    m_lastTime: -8585762565431105445
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ce94d6fe238f694492354766ac00ca9c
     GuidInternal: 
-    m_lastTime: -8585762624621460311
+    m_lastTime: -8585762497086671948
     List:
     - name: Main
       guid: 44fa22a076332b4cab799a2af0946f88
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 567f12625f68ac4eb60ba5567b2371eb
     GuidInternal: 
-    m_lastTime: -8585762624730195570
+    m_lastTime: -8585762497086761958
     List:
     - name: graminhaEvent
       guid: 29d4412c67200c41a9ca68ac524320aa
@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: 29d4412c67200c41a9ca68ac524320aa
       Path: Events\Default Work Unit\graminhaEvent
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.581995
+      minDuration: 0.581995
     - name: musicStart
       guid: f05640712ed80e44b35c2823702e1fa6
       id: 1122283870
@@ -179,8 +179,42 @@ MonoBehaviour:
         guid: 7c09a82d66299a4d84ff3e4478357d27
       Path: Events\Default Work Unit\musicStop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+    - name: pisaCachorrao
+      guid: f3406769afa54443801e6d3b8dc7d98e
+      id: 1207970504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 567f12625f68ac4eb60ba5567b2371eb
+      - ElementName: pisaCachorrao
+        ObjectType: 3
+        guid: f3406769afa54443801e6d3b8dc7d98e
+      Path: Events\Default Work Unit\pisaCachorrao
+      maxAttenuation: 0
+      maxDuration: 0.581995
+      minDuration: 0.581995
+    - name: pisaCachorrinho
+      guid: db1adf378e0f5140a076b9758130e5e2
+      id: 424210094
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 567f12625f68ac4eb60ba5567b2371eb
+      - ElementName: pisaCachorrinho
+        ObjectType: 3
+        guid: db1adf378e0f5140a076b9758130e5e2
+      Path: Events\Default Work Unit\pisaCachorrinho
+      maxAttenuation: 0
+      maxDuration: 0.451742
+      minDuration: 0.451742
     - name: sheepBeeh1
       guid: b15746edd751fe44a0b0ed26183c4d04
       id: 740608359
@@ -196,8 +230,8 @@ MonoBehaviour:
         guid: b15746edd751fe44a0b0ed26183c4d04
       Path: Events\Default Work Unit\sheepBeeh1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.050658
+      minDuration: 0
     - name: uiClick
       guid: 7b2c7500f68b81499a6be9fd1c009b8e
       id: 3164408517
@@ -213,8 +247,8 @@ MonoBehaviour:
         guid: 7b2c7500f68b81499a6be9fd1c009b8e
       Path: Events\Default Work Unit\uiClick
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.960333
+      minDuration: 0.960333
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +261,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e56996fe53cac04a8bed1d7e3e90ed2c
     GuidInternal: 
-    m_lastTime: -8585762626696113793
+    m_lastTime: -8585762565433926088
     List:
     - name: graminha
       guid: 51a609a08fe5d048aa03c3f2cc07741f
@@ -255,7 +289,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: e076261520160b4e9324e1d5b4e4a1e8
     GuidInternal: 
-    m_lastTime: -8585762698490766562
+    m_lastTime: -8585762565427754697
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -269,7 +303,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 891117f078070a4b915085a9899729e7
     GuidInternal: 
-    m_lastTime: -8585762698490936600
+    m_lastTime: -8585762565427754697
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -283,7 +317,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 99f714519603ce488abc25b628684c0e
     GuidInternal: 
-    m_lastTime: -8585762698491446713
+    m_lastTime: -8585762565427744699
     List: []
   ExpandedFileSystemItemIds: 06000000070000000d0000000e0000000f000000
   ExpandedWaapiItemIds: 06000000070000000d0000000e0000000f000000
