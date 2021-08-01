@@ -128,6 +128,7 @@ public class ovelha : MonoBehaviour
     {
         if (!desaparecendo)
         {
+            AkSoundEngine.PostEvent("sheepBeeh1", gameObject);
             if (fugindo)
             {
                 fugir();

@@ -7,6 +7,7 @@ public class menuPrincipal : MonoBehaviour
 {
     public void comecarJogo()
     {
+        AkSoundEngine.PostEvent("uiClick", gameObject);
         SceneManager.LoadScene("Fase1");
     }
 

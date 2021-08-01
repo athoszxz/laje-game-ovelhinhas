@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3B7E8F2A-7FCF-449E-8DCD-D04D2FCBDA1D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="GDP" ID="{96D6234D-1120-423D-9556-02AEF81F0D85}" ShortID="674461753">
+					<ChildrenList>
+						<Sound Name="cachorrinho" ID="{9FB45C39-89E0-4558-8279-3EE63C90F68F}" ShortID="957106349">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cachorrinho" ID="{6FEA1376-97E3-44B3-922B-9F636BE786B7}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\cachorrinho.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="807312101"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cachorrinho" ID="{6FEA1376-97E3-44B3-922B-9F636BE786B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cachorrão" ID="{1E9DB145-5599-45F8-99B4-ACBFE4F58674}" ShortID="472416908">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cachorrão" ID="{B1ECD988-0F42-41E1-91A5-4C199AAA454F}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\cachorrão.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="71675693"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cachorrão" ID="{B1ECD988-0F42-41E1-91A5-4C199AAA454F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="click madeira" ID="{94D0C34A-FE8F-496C-BB7D-985821E29741}" ShortID="38617032">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="click madeira" ID="{D00992DF-0311-43E6-99F7-249414465DDF}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\click madeira.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="806604223"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="click madeira" ID="{D00992DF-0311-43E6-99F7-249414465DDF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fazenda 1 2" ID="{41492240-B72B-4FD3-B262-AFD0BF3380A0}" ShortID="88954233">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{56A07A72-24C9-4C3A-8CF7-10C0717D3C75}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fazenda 1 2" ID="{F51B2443-E4C7-42B9-B4B1-AFE9EB8394FE}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\Fazenda 1 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="841621187"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Fazenda 1 2" ID="{F51B2443-E4C7-42B9-B4B1-AFE9EB8394FE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarCachorrao" ID="{E4B590DA-30D5-4BC4-AF3D-D13810288B33}" ShortID="998613225">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{5BAE90F9-81D7-487B-9F5B-1FA497FD2EBB}" ShortID="705520042">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{EF523536-5984-4085-A16D-CD4DF3EF7713}" ShortID="864558838">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{363695B4-4B1D-422C-9BDB-1A7D6A79A563}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-613</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-121</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{39F8D2C2-3BBB-40C0-A960-82BF8871C17F}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583308806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{39F8D2C2-3BBB-40C0-A960-82BF8871C17F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Beehs" ID="{BA851C4D-AE56-4293-BAA0-095DDA8A6F29}" ShortID="656424770">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{F0930C25-B30D-4D8C-9F6E-73FF6E17B2FB}" ShortID="764724317">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{3C8A1E8D-5668-4272-B636-AD91BB81EE7B}" ShortID="835012455">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6518957F-B2EA-48C1-B3BD-494761BA3130}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>200</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Beeh1" ID="{13EF9CF3-459C-4974-9193-58DA257D5311}" ShortID="346071425">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<ObjectRef Name="beeeeeeeh1Shifter" ID="{CF7C7AC6-7B03-4A91-8DB9-431ED4105306}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ES_Sheep Many Variations 3 - SFX Producer" ID="{745B8A79-0BC3-41EF-855C-CE848AFC1102}">
+											<Language>SFX</Language>
+											<AudioFile>GDP\ES_Sheep Many Variations 3 - SFX Producer.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704499321"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ES_Sheep Many Variations 3 - SFX Producer" ID="{745B8A79-0BC3-41EF-855C-CE848AFC1102}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beeh2" ID="{40272C96-60C0-4CC1-BB43-95B77D194A2F}" ShortID="191580991">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ES_Sheep Many Variations 6 - SFX Producer" ID="{470C78B0-0644-4C80-A751-C1B9E0F504BA}">
+											<Language>SFX</Language>
+											<AudioFile>GDP\ES_Sheep Many Variations 6 - SFX Producer.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="881910503"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ES_Sheep Many Variations 6 - SFX Producer" ID="{470C78B0-0644-4C80-A751-C1B9E0F504BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beeh5" ID="{7B45C4D8-57FA-43BC-8E54-AA87C176CB07}" ShortID="159980005">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ES_Sheep Many Variations 4" ID="{F88F0118-5206-4B4F-8247-42547A14B0E8}">
+											<Language>SFX</Language>
+											<AudioFile>ES_Sheep Many Variations 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="576445135"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ES_Sheep Many Variations 4" ID="{F88F0118-5206-4B4F-8247-42547A14B0E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beeh3" ID="{F924D954-9FEC-4C7D-B54B-1B1CD88E1B5B}" ShortID="879818654">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ES_Sheep Many Variations" ID="{A5896573-CED1-4857-B7CA-826EF09FAD8B}">
+											<Language>SFX</Language>
+											<AudioFile>ES_Sheep Many Variations.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="834598158"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ES_Sheep Many Variations" ID="{A5896573-CED1-4857-B7CA-826EF09FAD8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Beeh4" ID="{B2AF42B5-24B7-48BF-A352-828399578B93}" ShortID="910451071">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ES_Sheep Many Variations 2" ID="{288833EE-4615-4247-8E50-ACF065988948}">
+											<Language>SFX</Language>
+											<AudioFile>ES_Sheep Many Variations 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243245342"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ES_Sheep Many Variations 2" ID="{288833EE-4615-4247-8E50-ACF065988948}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="pisarCachorrinho" ID="{B5B41CBC-2DC2-4872-AD50-236286C5825A}" ShortID="602193284">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4A23848B-FDF3-474F-B668-76E055F21562}" ShortID="345513089">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{79C9E8CF-DF8F-4E18-B035-5D1F987DC864}" ShortID="470643148">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E2ED6741-BE63-41A6-8BE9-AD172B1F7642}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>500</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{FDB0226A-797D-4BC9-9ECC-7BAB3A6F66B2}" ShortID="350009161">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{F7CF7893-E314-45F5-96F6-01CCB90A0B72}" ShortID="843605714">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{00627C36-8DFA-41A2-B88D-BDB95AF380B2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-6.23093</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-2.9392</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{177BD347-8C8A-429D-833D-7F6C65025EC0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.265149796308208"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.310175233417149"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.533634810180041"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.103391744472383"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584782415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{177BD347-8C8A-429D-833D-7F6C65025EC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarOvelhas" ID="{3CD2C20B-344E-48D6-A577-979FCA9A9E7F}" ShortID="520065738">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{64812F0D-03E2-4D89-A6F2-D764AEEAC774}" ShortID="311290836">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{435B5CFD-6A12-4E6B-B826-56229BD2D493}" ShortID="964484259">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F0A0DFC3-EBBC-47AF-A91F-0099E8122084}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>200</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{4F8FDA40-D271-4250-A16C-09048E353034}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583308806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{4F8FDA40-D271-4250-A16C-09048E353034}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pisarRaposa" ID="{E502A899-32B0-4773-90EB-BBBA05995D6F}" ShortID="133169647">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{1F07A5C9-73A1-49EC-9BA8-5D024B8F91BE}" ShortID="811006854">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorLfo Name="Modulator LFO (Custom)" ID="{6270B075-2075-4534-A2CE-AA9F8C72075D}" ShortID="765979495">
+															<PropertyList>
+																<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															</PropertyList>
+														</ModulatorLfo>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D40A2685-6C66-4B65-B77A-2BEA940AE457}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>200</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+									<ObjectRef Name="graminhaShifter" ID="{5234BDC6-236D-4E5A-A703-09911EC1E286}" WorkUnitID="{8E2FA05E-7CB2-4BE1-8A42-4C2032962956}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-grass-step-1920" ID="{B23BB13F-228A-4A7C-B524-2373A5CFABEF}">
+									<Language>SFX</Language>
+									<AudioFile>GDP\mixkit-grass-step-1920.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583308806"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-grass-step-1920" ID="{B23BB13F-228A-4A7C-B524-2373A5CFABEF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="vitória" ID="{4455E076-B620-4ED7-836C-3C3137D9E0FC}" ShortID="751753282">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B358EDC1-CC01-42BE-8D25-75C6D9B4B43B}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="vitória" ID="{7D82D9EE-3741-429D-BF3A-7E0E7B4C6A79}">
+									<Language>SFX</Language>
+									<AudioFile>vitória.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668185897"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="vitória" ID="{7D82D9EE-3741-429D-BF3A-7E0E7B4C6A79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Funk do Cachorrinho Fiadaputa" ID="{DB5F05F7-F701-4C12-8B89-545AA3531539}" ShortID="808862402">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1E015320-7264-45F8-9224-C462FBAFF7DB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{56A07A72-24C9-4C3A-8CF7-10C0717D3C75}" WorkUnitID="{79991DA7-E0C7-43CC-AFAA-6C4B3346986A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Funk do Cachorrinho Fiadaputa" ID="{1AF20641-96CE-4298-8C10-65BFDFB95137}">
+									<Language>SFX</Language>
+									<AudioFile>Funk do Cachorrinho Fiadaputa.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1060626646"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Funk do Cachorrinho Fiadaputa" ID="{1AF20641-96CE-4298-8C10-65BFDFB95137}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
